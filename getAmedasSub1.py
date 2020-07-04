@@ -14,5 +14,5 @@ dic = ast.literal_eval(response.text)
 print(dic['coord'])   #座標
 print(dic['weather']) #天気の様子
 print(dic['main'])    #天気概観
-# print(dic['sys'])     #天気概観
+print(dic['sys'])     #天気概観
 print(dic['name'])    #取得場所
